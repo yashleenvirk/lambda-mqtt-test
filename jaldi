@@ -1,9 +1,4 @@
 import sys, os
-import ms.version
-ms.version.addpkg("lxml","3.8.0")
-ms.version.addpkg("elementtree","1.2")
-ms.version.addpkg("BeautifulSoup","3.2.1")
-ms.version.addpkg("beautifulsoup4","4.5.1")
 
 from lxml import etree
 import elementtree as ET
